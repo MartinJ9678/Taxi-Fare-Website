@@ -1,7 +1,6 @@
 import streamlit as st
 import requests
 from datetime import datetime
-import pytz
 
 #font_size = st.sidebar.slider('Changer header size', 1, 2, 3, 4)
 
@@ -27,12 +26,6 @@ t = st.time_input('Time ?')
 #st.write('you time is:',t)
 
 pickup_datetime = str(d) + ' ' + str(t)[:8]
-
-# eastern = pytz.timezone("US/Eastern")
-# localized_pickup_datetime = eastern.localize(d, is_dst=None)
-# utc_pickup_datetime = localized_pickup_datetime.astimezone(pytz.utc)
-# formatted_pickup_datetime = utc_pickup_datetime.strftime("%Y-%m-%d")
-
 
 #st.write('Time USA :',formatted_pickup_datetime)
 
