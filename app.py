@@ -34,10 +34,11 @@ pickup_datetime = str(d) + ' ' + str(t)[:8]
 
 #st.write('you time is:',pickup_datetime)
 
-start_long = st.number_input('Start Long ?',value=-73.950655,format='%.6f')
-start_lat = st.number_input('Start Lat ?',value=40.783282,format='%.6f')
-end_long = st.number_input('End Long ?',value=-73.984365,format='%.6f')
-end_lat = st.number_input('End Lat ?',value=40.769802,format='%.6f')
+# start_long = st.number_input('Start Long ?',value=-73.950655,format='%.6f')
+# start_lat = st.number_input('Start Lat ?',value=40.783282,format='%.6f')
+# end_long = st.number_input('End Long ?',value=-73.984365,format='%.6f')
+# end_lat = st.number_input('End Lat ?',value=40.769802,format='%.6f')
+
 passenger_count = st.number_input('Passenger number ?',value=1,format='%d')
 
 osm_url = "https://nominatim.openstreetmap.org"
